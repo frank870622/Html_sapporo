@@ -71,7 +71,7 @@ body {
   opacity: 0.8  ;
 }
 .top_recommend a div{
-  display: block;
+  padding-left: 10px;
 }
 .top_recommend a h3{
   color: #22e673;
