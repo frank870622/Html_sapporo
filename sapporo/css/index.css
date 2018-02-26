@@ -1,0 +1,108 @@
+@import url(//fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+html {
+}
+body {
+  font-family: "Rounded Mplus 1c";
+}
+.the_top{
+  background-color: #689ACA;
+  color: #ffffff;
+  margin: 0px;
+}
+.main_icon{
+  background-image: url(../images/logo_h_ja.png);
+  background-size: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 90px;
+  z-index: 3;
+  display: block;
+}
+.top_bash{
+  background-color: #08477C;
+  color: #ffffff;
+}
+.context_title{
+  color: #08477C;
+  border-top: 1px solid #08477C;
+  display: block;
+}
+.context_title a{
+  font-size: 20px;
+  font-weight: bold;
+  color: #08477C;
+}
+.news{
+  position: relative;
+  display: block;
+  left: 15%;
+  width: 70%;
+}
+.news_context{
+  position: relative;
+  left: 20%;
+  width: 80%;
+}
+.news_context li{
+  border-bottom: solid #666666 1px;
+  margin: 0px;
+}
+.news_context li a{
+  color: #69c;
+}
+.news_context li p{
+  font-size: 12px;
+  margin: 0px;
+}
+.top_recommend{
+  display: table;
+  position: relative;
+  left: 15%;
+  width: 70%;
+}
+.top_recommend a{
+  display: table-cell;
+  opacity: 1;
+  background-color: #22a46f;
+}
+.top_recommend a:hover{
+  display: table-cell;
+  opacity: 0.8  ;
+}
+.top_recommend a div{
+  display: block;
+}
+.top_recommend a h3{
+  color: #22e673;
+  font-size: 20px;
+  float: left;
+  width: 49%;
+}
+.top_recommend a h4{
+  color: #ffffff;
+  font-size: 100%;
+  float: left;
+  width: 49%;
+}
+.top_recommend a strong{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  width: 49%;
+}
+.top_recommend a p{
+  color: #ffffff;
+  float: left;
+  width: 49%;
+}
+.top_recommend a img{
+  float: right;
+  height: inherit;
+  max-width: 50%;
+  height: auto;
+}
+.btn-large {
+  background-color: #22a46f;
+}
